@@ -1,0 +1,109 @@
+/* margin:Espacio que esta del borde hacia afuera */
+/* border:Tamano borde y tipo, solid dashed doted double inset outset */
+/* padding: que esta del borde hacia adentro */
+/* padding | margin: 
+propiedad: <para todos los ejes>;
+propiedad: <eje y | vertical> <eje x | horizontal>;
+propiedad: <top> <eje x | horizontal> <bottom>;
+propiedad: <top> <right> <bottom> <left>;*/ 
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} /* normalize */
+
+
+
+.caja {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 5px solid blueviolet;
+    padding: 15px 30px 28px 40px; /* primer padding vertical segundo horizontal (15 30), el tercero seria abajo solo (28)* y un cuarto seria a la izq */
+    box-shadow: 20px 30px 30px 10px black,
+    inset 0px 0px 30px rgb(255, 255, 255);
+    border-radius: 50%;
+} /* https://www.cssmatic.com/es/box-shadow */
+/* https://neumorphism.io/#e0e0e0 */
+
+span{
+    display: inline-block;
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 5px solid rgb(0, 203, 10);
+}
+
+header{
+    background-color: rgb(255,230,0);
+    padding: 32px;
+}
+
+.buscador-container {
+    width: 344px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.buscador-container button{
+    position: absolute;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+    color: #6d6b6b;
+    border-left: 1px #c0bfbf solid;
+    padding-left: 10px;
+    height: 60%;
+}
+
+
+header input{
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+
+header input:focus-visible{
+    outline: none;
+    border: 1px solid #3483fa;
+}
+
+header .buscador::placeholder{
+    color: #999999;}
+    
+a{
+    color: black;
+    background-color: gray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+
+a:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+    transition: 1000ms ease-in-out;
+}
+/* UNA TRANSICION ES UN CAMBIO DE VALORES POR UN TIEMPO DETERMINADO */

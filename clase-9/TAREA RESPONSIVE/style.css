@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+:root{
+    --ff-text: "DM Sans", "sans;serif";
+    --text-color: #ffffff;
+    --primary-backgorund: #673DE6;
+    --secondary-background: #5025D1;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--ff-text);
+}
+
+li{
+    margin: 0px 0px 16px;
+    list-style: none;
+    display: flex;
+    font-weight: 400;
+}
+.container{
+    background-color: var(--primary-backgorund);
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    padding: 64px 16px;
+    align-items: center;
+}
+
+.container-list{
+    max-width: 508px;
+}
+
+.container-list .title{
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.container-list img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container .cards-1{
+    padding: 32px;
+    background-color: var(--secondary-background);
+    border-radius: 5px;
+    margin: 0px 0px 24px;
+    height: auto;
+    max-width: 508px;
+}
+
+.container .cards-2{
+    padding: 32px;
+    background-color: var(--secondary-background);
+    border-radius: 5px;
+    margin: 0px 0px 24px;
+    height: auto;
+    max-width: 508px;
+}
+.container .cards-3{
+    padding: 32px;
+    background-color: var(--secondary-background);
+    border-radius: 5px;
+    margin: 0px 0px 24px;
+    height: auto;
+    max-width: 508px;
+}
+
+.container .cards .btn{
+    margin: 16px 0px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    background-color: #5025D1;
+    border: transparent;
+    color: white;
+}
+
+.cards p{
+    height: 168px;
+}
+
+.cards img{
+    padding-bottom: 32px;
+}
+
+
+@media screen and(min-width: 768px){
+    
+    .container .container-list{
+        max-width: 688px;
+    }
+    
+    .container .cards .cards-1{
+        max-width: 688px;
+    }
+    .container .cards .cards-2{
+        max-width: 688px;
+    }
+    .container .cards .cards-3{
+        max-width: 688px;
+    }
+}

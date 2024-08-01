@@ -1,0 +1,11 @@
+/* CSS = HOJA DE ESTILOS EN CASCADA */
+
+/* ESTE ES SELECTOR DEE ELEMENTOS */
+button{ color: red;}
+/* ESTE ES EL SELECTOR DE LA CLASE */
+.especial{ color: aqua;}
+/* ESTE ES EL SELECTOR DE ID */
+#btn-super-especial {color: green;}
+.super-especial {background-color: black;}
+/* Selector universal, (selecciona a TODOS los elementos) */
+*{ color: blueviolet;}

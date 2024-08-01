@@ -1,0 +1,53 @@
+
+    .mensaje {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+    .mensaje.yo {
+    color: white;
+    justify-content: flex-end;
+    }
+    
+    .mensaje.otro {
+    color: white;
+    justify-content: flex-start;
+    }
+    
+    .contenido-mensaje {
+    background-color: #005C4B;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 60%;
+    margin: 15px;
+    }
+    
+    .mensaje.miMensaje .contenido-mensaje {
+    background-color: #005C4B;
+    }
+    
+    .fecha {
+    font-size: 0.8em;
+    color: rgb(194, 192, 192);
+    margin-left: 10px;
+    }
+    
+    .estado-mensaje {
+    font-size: 0.8em;
+    margin-left: 5px;
+    }
+
+    .bi {
+        margin-left: 5px;
+        font-size: 1em;
+        vertical-align: middle;
+    }
+    
+    .celeste {
+        color: #00aaff; /* Color celeste */
+    }
+    
+    .gris {
+        color: #cccccc; /* Color gris */
+    }

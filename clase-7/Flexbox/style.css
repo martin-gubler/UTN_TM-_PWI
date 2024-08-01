@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{ 
+    background-color: green;
+    width: 100vw; /* viewport width WV*/
+    height: 100vh; /* viwe port height WH*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+}
+
+
+.padre .hijo{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.padre .hijo:nth-child(1){
+    background-color: blue;
+}

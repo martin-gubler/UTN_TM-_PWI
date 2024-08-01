@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Informacion de usuario</h2>
+        
+        <div>
+        <label for="username">Escribe tu nombre de usuario:</label>
+        <input type="text" id="username" placeholder="Joe Doe" required maxlength="16"> <!-- requerido, maximo 16 caracteres -->
+        </div>
+        
+        <div>
+        <label for="password">Escribe tu contrase;a</label>
+        <input type="password" id="password" required> <!-- required para que si o si se tenga que llenar --> <!-- input type; text muestra letras, type; password muestra astericos -->
+        </div>
+        <div>
+            <label for="email">Ingresa tu email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <input type="date">
+            <input type="datetime">
+            <input type="datetime-local">
+            <input type="file">
+            <input type="hidden">
+            <input type="number">
+            <input type="checkbox" id="terminos">
+            <label for="terminos">Acepta los terminos y condiciones?</label>
+        </div>
+
+        <div>
+            <h2>QUE TECNOLOGIA TE GUSTA MAS?</h2>
+            <input type="radio" name="tecnologias" id="JS">
+            <label for="JS">js</label>
+            <input type="radio" name="tecnologias" id="CSS">
+            <label for="CSS">CSS</label>
+            <input type="radio" name="tecnologias" id="HTML">
+            <label for="HTML">HTML</label>
+        </div>
+
+        <div></div>
+        <div>
+            <label for="pais">Seleccione un pais</label>
+            <select name="" id="">
+                <option value="Ar">Argentina</option>
+                <option value="Fr">Francia</option>
+                <option value="Dk">Dinamarca</option>
+            </select>
+
+        </div>
+        <button type="submit">Enviar</button>   <!-- Son 2 formas de poner el boton de enviar, en este se puede poner iconos e imagenes -->
+        <input type="submit" value="submit">    <!-- Son 2 formas de poner el boton de enviar -->
+        <button type="button"></button> <!-- boton para q funcione como boton normal sin submit -->
+        <input type="reset">
+        <button type="reset">Empezar de nuevo</button>
+
+
+    </form>
+</body>
+</html>

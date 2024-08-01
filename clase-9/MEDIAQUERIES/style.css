@@ -1,0 +1,37 @@
+/* Mobile first (celular primero) */
+
+/* Desktop first */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.padre{
+    height: 100vh;
+    background-color: green;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.padre .hijo{
+    background-color: red;
+    width: 80vw;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* cuando el ancho de la pantalla sea mayor a 1000px se cambia dee color 
+LAS MEDIA QUERIES SIEMPRE VAN A LO ULTIMO
+LOS ELEMENTOS QUE QUERAMOS MODIFICAR DEBEN TENER LA MISMA ESPECIFICIDAD O SUPERIOR A LOS ESTILOS PREVIOS DEL MISMO ELEMENTO*/
+@media screen and (min-width: 1000px){
+    .padre{
+        background-color: aqua;
+    }
+    .padre .hijo{
+        background-color: blue;
+    }
+}

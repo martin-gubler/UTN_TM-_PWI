@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid blue;
+    border-radius: 30px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.logo {
+    width: 30%;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.button {
+    color: red;
+    border-color: red;
+    border-radius: 8px;
+    height: auto;
+    background-color: transparent;
+    font-family: monospace;
+    padding: 6px 15px;
+    font-size: 1.2rem;
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}

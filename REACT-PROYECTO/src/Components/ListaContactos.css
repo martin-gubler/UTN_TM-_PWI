@@ -1,0 +1,53 @@
+.contactos-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+    width: 500px;
+    height: 70vh; 
+}
+
+.div-titulo{
+    color: white;
+    padding: 15px;
+    background-color:  #202C33;
+    border-radius: 10px;
+}
+
+.contacto-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.nombre-contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div-foto{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+}
+
+.imagen{
+    border-radius: 50%;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.ultima-conexion {
+    font-size: 0.9em;
+    color: grey;
+  }
